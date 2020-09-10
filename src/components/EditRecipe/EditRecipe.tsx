@@ -72,8 +72,8 @@ const EditRecipe = () => {
       <div className={ styles.wrapper }>
         <h2 className={ styles.heading }>
           { recipe
-            ? `Editing '${recipe.name}'`
-            : 'Adding new recipe' }
+            ? `Edit recipe '${recipe.name}'`
+            : 'Add new recipe' }
         </h2>
 
         <label className={ styles.label } htmlFor="name">Name:</label>
