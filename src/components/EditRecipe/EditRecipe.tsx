@@ -38,7 +38,9 @@ const EditRecipe = () => {
   });
 
   const addIngredient = () => {
-    if (!ingredientName.length) return;
+    if (!ingredientName.length || values.ingredients.includes(ingredientName)) {
+      return;
+    }
 
     setValues({
       ...values,
