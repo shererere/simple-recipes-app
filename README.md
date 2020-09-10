@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# launch
+- git clone https://github.com/shererere/simple-recipes-app.git app
+- cd app
+- npm install
+- npm start
+
 # CRUD Recipes list
 
 The challenge is to create simple CRUD application using React (see attached pictures).
