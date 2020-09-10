@@ -12,12 +12,15 @@
   transition: all 0.3s ease;
   cursor: pointer;
   outline: 0;
+  font-family: inherit;
+  letter-spacing: 1px;
+  word-spacing: 2px;
 }
 
 .primary {
   background: $blue;
   border-bottom: 2px solid $darkblue;
-  padding: 14px 15px;
+  padding: 14px 15px 12px;
   margin: 10px 0;
 
   &:hover {

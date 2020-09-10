@@ -13,6 +13,7 @@ const App = () => (
   <>
     <Helmet>
       <title>Recipes app!</title>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
     </Helmet>
     <div className={ styles.pageWrapper }>
       <Header />
