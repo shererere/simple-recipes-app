@@ -1,0 +1,33 @@
+$black: #000;
+$white: #fff;
+$grey: #dedede;
+
+$blue: blue;
+$darkblue: darken($blue, 10%);
+
+$green: green;
+$darkgreen: darken($green, 4%);
+
+$red: red;
+$darkred: darken($red, 10%);
+
+.wrapper {
+    background: $white;
+    border-bottom: 2px solid $grey;
+    padding: 10px 15px;
+    
+    @media (min-width: 768px) {
+        padding: 15px 20px;
+    }
+}
+
+.heading {
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+    
+    @media (min-width: 768px) {
+        font-size: 36px;
+        line-height: 42px;
+    }
+}

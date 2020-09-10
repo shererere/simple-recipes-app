@@ -1,0 +1,47 @@
+@import "../../shared.module.scss";
+
+.label {
+    display: block;
+    margin-top: 20px;
+}
+
+.textInput {
+    border: 1px solid $black;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 0;
+    line-height: 18px;
+    border-radius: 0;
+    outline: 0;
+}
+
+.textarea {
+    @extend .textInput;
+    font-family: inherit;
+    resize: none;
+}
+
+.recipe {
+    padding: 10px 15px;
+    margin: 5px 0;
+    background: $grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        cursor: pointer;
+    }
+}
+
+.inputGroup {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+
+    input {
+        flex-basis: 50%;
+    }
+}

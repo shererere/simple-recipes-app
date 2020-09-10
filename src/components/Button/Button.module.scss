@@ -1,0 +1,44 @@
+@import "../../shared.module.scss";
+
+.button {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    outline: 0;
+}
+
+.primary {
+    background: $blue;
+    border-bottom: 2px solid $darkblue;
+    padding: 14px 15px;
+    margin: 10px 0;
+
+    &:hover {
+        background: $darkblue;
+    }
+}
+
+.secondary {
+    background: $green;
+    border-bottom: 2px solid $darkgreen;
+
+    &:hover {
+        background: $darkgreen;
+    }
+}
+
+.danger {
+    background: $red;
+    border-bottom: 2px solid $darkred;
+
+     &:hover {
+        background: $darkred;
+    }
+}
