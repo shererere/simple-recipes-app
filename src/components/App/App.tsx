@@ -9,17 +9,17 @@ const SingleRecipeComponent = lazy(() => import('../SingleRecipe/SingleRecipe'))
 const EditRecipeComponent = lazy(() => import('../EditRecipe/EditRecipe'));
 
 const App = () => (
-	<div className={ styles.pageWrapper }>
-		<Header />
-		<Suspense fallback={ Loader() }>
-			<Switch>
-				<Route path="/:id/edit" component={ EditRecipeComponent } />
-				<Route path="/add" component={ EditRecipeComponent } />
-				<Route path="/:id" component={ SingleRecipeComponent } />
-				<Route path="/" component={ RecipeListComponent } />
-			</Switch>
-		</Suspense>
-	</div>
+  <div className={ styles.pageWrapper }>
+    <Header />
+    <Suspense fallback={ Loader() }>
+      <Switch>
+        <Route path="/:id/edit" component={ EditRecipeComponent } />
+        <Route path="/add" component={ EditRecipeComponent } />
+        <Route path="/:id" component={ SingleRecipeComponent } />
+        <Route path="/" component={ RecipeListComponent } />
+      </Switch>
+    </Suspense>
+  </div>
 );
 
 export default App;
