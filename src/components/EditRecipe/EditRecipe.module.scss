@@ -13,6 +13,7 @@
   line-height: 18px;
   border-radius: 0;
   outline: 0;
+  width: 100%;
 }
 
 .textarea {
@@ -21,7 +22,7 @@
   resize: none;
 }
 
-.recipe {
+.ingredient {
   padding: 10px 15px;
   margin: 5px 0;
   background: $grey;
@@ -38,10 +39,5 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  max-width: 400px;
   width: 100%;
-
-  input {
-    flex-basis: 50%;
-  }
 }

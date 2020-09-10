@@ -41,11 +41,15 @@ const SingleRecipe = () => {
       </div>
 
       <h3>Ingredients:</h3>
-      <ul>
+      <ul className={ styles.ingredientList } >
         { !recipe.ingredients.length
             ? <li>None :(</li>
             : recipe.ingredients.map(ingredient => (
-                <li key={ ingredient }>{ ingredient } </li>
+                <li
+                  className={ styles.ingredient }
+                  key={ ingredient }
+                >{ ingredient }
+                </li>
             )) }
       </ul>
     </div>

@@ -9,7 +9,7 @@ import styles from './EditRecipe.module.scss';
 import trash from '../../assets/trash.svg';
 
 const Ingredient = ({ name, remove }) => (
-  <div className={ styles.recipe }>
+  <div className={ styles.ingredient }>
     <span>
       { name }
     </span>
