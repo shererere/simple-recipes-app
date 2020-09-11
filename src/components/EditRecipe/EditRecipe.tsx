@@ -64,7 +64,7 @@ const EditRecipe = () => {
       id: uuid(),
       ...values,
     });
-    history.push(recipe ? `/${recipe.id}` : '/');
+    history.push('/');
   };
 
   return (
@@ -104,7 +104,7 @@ const EditRecipe = () => {
           />
         )) }
 
-        <div className={ styles.inputGroup }>
+        <form className={ styles.inputGroup }>
           <input
             type="text"
             value={ ingredientName }
@@ -114,7 +114,7 @@ const EditRecipe = () => {
           <Button onClick={ () => addIngredient() }>
             Add
           </Button>
-        </div>
+        </form>
       </div>
 
       <Button primary type="submit">

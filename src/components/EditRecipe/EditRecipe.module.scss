@@ -10,16 +10,16 @@
   padding: 10px 15px;
   margin: 5px 0;
   border-radius: 0;
-  line-height: 18px;
   border-radius: 0;
   outline: 0;
   width: 100%;
-  font-family: inherit;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .textarea {
   @extend .textInput;
-  font-family: inherit;
   resize: none;
 }
 
